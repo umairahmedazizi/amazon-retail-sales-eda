@@ -1,0 +1,7 @@
+# Treat report/data binaries as binary so git never applies line-ending or text normalization
+*.pdf  binary
+*.pptx binary
+*.docx binary
+*.xlsx binary
+*.png  binary
+*.ipynb -text
